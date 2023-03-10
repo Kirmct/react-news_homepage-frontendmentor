@@ -1,0 +1,41 @@
+.hamburguer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: -10px;
+}
+
+.menu {
+  position: absolute;
+  background-color: rgba(0, 0, 26, 0.6);
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50vw;
+  transition: 0.2s;
+}
+.menuOp {
+  position: absolute;
+  top: 3rem;
+  transition: 0.2s;
+  right: 2rem;
+}
+
+.headerMenu {
+  position: absolute;
+  top: 4rem;
+  transition: 0.2s;
+  list-style: none;
+}
+.headerMenu li {
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.headerMenu li:hover {
+  transform: scale(1.2);
+}
+.headerMenu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,34 @@
+.card {
+  background-color: #00001a;
+  padding: 16px 12px;
+  color: #6a6a80;
+}
+.title {
+  color: #efa84f;
+}
+.card h4 {
+  color: #fff;
+}
+.title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.notices {
+  height: calc(100% - 16px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.notice {
+  padding: 10px 0;
+}
+.notice p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+
+.notice hr {
+  border: 1px solid #6a6a80;
+}
